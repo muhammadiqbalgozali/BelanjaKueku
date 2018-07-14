@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/kueview">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PILIH PESANAN"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:textColor="#fff00000"
+        android:id="@+id/textView5"
+        android:layout_marginTop="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="206dp"
+        android:orientation="vertical"
+        android:layout_marginTop="39dp"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>
